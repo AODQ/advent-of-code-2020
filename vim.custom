@@ -1,0 +1,5 @@
+" just a Vim utility that runs current dlang file as a script w/ error handling
+function! MakeprgRelease()
+  let &makeprg = '%'
+  make
+endfunction
